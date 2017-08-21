@@ -4,7 +4,7 @@
 import argparse
 import psycopg2
 
-# Define set queries - last item in query is tag for table heading
+# Define set queries - second last item in query is tag for table heading
 QALL = "SELECT x.id,"
 QJ = "x.create_time FROM job x"
 QW = "x.create_time FROM stored_workflow x"
